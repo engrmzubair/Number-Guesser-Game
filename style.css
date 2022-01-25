@@ -1,46 +1,49 @@
-.btn {
-  border: 1px solid #8f8f9d;
-  border-radius: .25rem !important;
-  /* padding: .375rem 1.5rem; */
-  color: #8f8f9d;
-}
+    .btn {
+      border: 1px solid #8f8f9d;
+      border-radius: .25rem !important;
+      /* padding: .375rem 1.5rem; */
+      color: #8f8f9d;
+    }
 
-.btn:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+    .btn:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
 
-#guess-input {
-  border: 1px solid #8f8f9d;
-  border-radius: .25rem !important;
-  background-color: #e0f2f1;
-}
+    #guess-input {
+      border: 1px solid #8f8f9d;
+      border-radius: .25rem !important;
+      background-color: #e0f2f1;
+    }
 
-.card {
-  background-color: #e0f2f1;
-  /* margin: 20%; */
-}
+    .card {
+      background-color: #e0f2f1;
+      /* margin: 20%; */
+    }
 
-body {
-  background-color: #00695c;
-}
+    body {
+      background-color: #00695c;
+    }
+    #playAgain-btn{
+      display: none;
+    }
 
-@media (max-width: 445px) {
-  body {
-    background-color: #8f8f9d;
-    overflow-x: hidden;
-  }
+    @media (max-width: 445px) {
+      body {
+        background-color: #8f8f9d;
+        overflow-x: hidden;
+      }
 
-  .card {
-    width: 100%;
-  }
+      .card {
+        width: 100%;
+      }
 
-  #guess-input {
-    width: 100%;
-  }
+      #guess-input {
+        width: 100%;
+      }
 
-  .btn {
-    width: 50%;
-    margin-top: 20px;
-  }
-}
+      .btn {
+        width: 50%;
+        margin-top: 20px;
+      }
+    }
