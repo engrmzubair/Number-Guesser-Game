@@ -23,6 +23,7 @@
 
     body {
       background-color: #00695c;
+      overflow: hidden;
     }
     #playAgain-btn{
       display: none;

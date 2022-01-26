@@ -10,7 +10,7 @@ GAME FUNCTION:
 //GAME VALUES
 let min = 1,
   max = 10,
-  winningNum = Math.floor(Math.random() * 9) + 1;
+  winningNum = Math.floor(Math.random() * (min - 1)) + 1;
 guessesLeft = 3;
 
 //UI elements
